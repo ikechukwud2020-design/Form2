@@ -1,0 +1,45 @@
+form{
+    height: 600px;
+    width: 400px;
+    /* border: 1px solid black; */
+    margin: auto;
+    background-color: rgba(250, 239, 229, 0.616);
+    padding:10px 40px;
+}
+input{
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    border: 1px solid rgb(238, 233, 233);
+}
+.Account button{
+    height: 50px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+::placeholder{
+    color: rgb(199, 199, 231);
+}
+.logo img{
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: fruit 5s linear infinite ;
+}
+@keyframes fruit{
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(50px);
+        opacity: -4;
+    }
+    100%{
+        transform: rotate(90deg);
+    }
+}
+.check{
+    border: 1px solid red;
+    height: 20px;
+}
